@@ -10,5 +10,14 @@
             </li>
         @endforeach
     </ul>
-    
-</x-mi-layout>
+<form action="{{ route('EdificioController') }}" method="POST">
+     @csrf
+     <label class="form-label" for="numero">Título:</label>
+    <input name ='numero' type="text">
+    <label class="form-label" for="numero">capacidad:</label>
+    <input name ='capacidad' type="text">
+ <button type="submit">Guardar</button>
+
+
+</form>
+</x-mi-layout> 
