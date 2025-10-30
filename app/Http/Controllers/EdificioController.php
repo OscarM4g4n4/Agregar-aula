@@ -63,4 +63,9 @@ class EdificioController extends Controller
     {
         //
     }
+
+    public function agregarAula(Request $request)
+    {
+        //
+    }
 }
